@@ -5,7 +5,7 @@
 // @match       https://*.giantbomb.com/reviews/*
 // @homepageURL https://github.com/KamasamaK/gb-review-images
 // @supportURL  https://github.com/KamasamaK/gb-review-images/issues
-// @version     1.5
+// @version     1.5.1
 // @author      KamasamaK
 // @grant       none
 // @license     MIT
@@ -34,7 +34,7 @@
     imgElem.setAttribute("height", "150");
     imgElem.setAttribute("align", "left");
 
-    var reviewerImages = new Object();
+    var reviewerImages = {};
     reviewerImages["Jeff Gerstmann"] = {
         "1": "https://static.giantbomb.com/uploads/original/0/9253/2492756-jeff-1.png",
         "2": "https://static.giantbomb.com/uploads/original/0/9253/2492757-jeff-2.png",
