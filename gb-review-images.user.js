@@ -18,13 +18,13 @@
 */
 (function () {
     "use strict";
-    
+
     var parentElems = document.getElementsByClassName("news-hdr");
     if (parentElems.length === 0) {
         return false;
     }
     var parentElem = parentElems[0];
-    
+
     var reviewerName = document.getElementsByClassName("news-byline")[0].getElementsByTagName("a")[0].textContent;
     var scoreElem = document.getElementsByClassName("score score-big score-special")[0];
     var numberScore = scoreElem.getElementsByTagName("span")[0].textContent;
